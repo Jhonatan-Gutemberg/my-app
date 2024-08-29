@@ -1,0 +1,116 @@
+/* FormPage.css */
+ 
+/* Contêiner principal */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ 
+/* Cabeçalho principal */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+ 
+/* Botões de navegação */
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+ 
+.nav-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin: 0 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+ 
+.nav-button.active {
+  background-color: #007bff;
+}
+ 
+.nav-button.inactive {
+  background-color: #ccc;
+}
+ 
+/* Formulários */
+.form-section {
+  margin-bottom: 20px;
+}
+ 
+.form-section h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #333;
+}
+ 
+.form-group {
+  margin-bottom: 15px;
+}
+ 
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+ 
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+ 
+.form-group input[type="date"] {
+  padding: 8px;
+}
+ 
+.form-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+ 
+.form-button:hover {
+  background-color: #0056b3;
+}
+ 
+/* Lista de registros */
+.records-list {
+  margin-top: 20px;
+}
+ 
+.records-list h3 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #333;
+}
+ 
+.records-list ul {
+  list-style: none;
+  padding: 0;
+}
+ 
+.records-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+ 
+.records-list strong {
+  color: #555;
+}
+ 
